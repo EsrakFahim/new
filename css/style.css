@@ -3,9 +3,46 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+#header{
+    background-image: url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.navigation{
+    display: flex;
+}
+.nav_logo img{
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 50px;
+    opacity: .8;
+}
+.nav_item{
+    padding-top: 15px;
+    margin-left: 500px;
+}
+
+.nav_item ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+.hire_btn{
+    background-image: linear-gradient( 45deg, #2580d1,#ff6347);
+    padding: 10px 20px;
+    color: blanchedalmond;
+    font-weight: 700;
+    border-radius: 10px;
+}
 .greet{
     font-weight: 600;
     font-size: 50px;
+    color: darkkhaki;
 }
 .first_name{
     color: coral;
@@ -21,11 +58,14 @@ body{
     font: weight 300px;
     text-align: justify;
 }
-section{
+.info_container{
     display: flex;
-    background-image: url(/images/header_bg.png),url(/images/developer.png) ;
+    background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right 98%,left;
+    background-position: right 98%;
+}
+.info_container p{
+    padding-bottom: 20px;
 }
 .half_width{
     width: 50%;
@@ -38,7 +78,7 @@ a{
     text-decoration: none;
 }
 .downlod_btn{
-    background-image: linear-gradient(#ff6347,#c5521da9);
+    background-image: linear-gradient(45deg,#ff6347,#c5521da9);
     padding: 15px 25px;
     font-size: 20px;
     color: azure;
