@@ -27,7 +27,7 @@ li{
 }
 .hire_btn{
     background-image: linear-gradient(45deg,#2580d1,#ff6347);
-    padding: 10px 20px;
+    padding: 20px 30px;
     color: white;
     font-weight: 700;
     border-radius: 10px;
@@ -143,4 +143,92 @@ a{
 }
 .work_description{
     color: #888282;
+}
+.resume_section{
+    width: 80%;
+    padding: 10%;
+}
+.resume_container{
+    display: flex;
+    gap: 30px;
+}
+.resume_section_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.content_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.resume_title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #4d4949;
+}
+.resume_sub_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #888282;
+}
+.resume_description{
+    color: #a09a9a;
+    padding-bottom: 25px;
+}
+.resume_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.footetr{
+    background-color: #131212;
+    color: aliceblue;
+}
+.footer_conteinar{
+    display: flex;
+    width: 70%;
+    padding: 15%;
+}
+.footer_width{
+    width: 50%;
+}
+.connect_soial{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.connect h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.connect_details{
+    color: #888282;
+}
+.message_box{
+    padding-left: 100px;
+}
+.message_box h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.message_input{
+    display:block;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9e2e1;
+    border-radius: 10px;
+    background-color: #131212;
+    color: aliceblue;
+    box-shadow: 3px 3px 5px #e9e2e1;
+}
+::placeholder {
+    color: #e9e2e1;
+    opacity: .8;
+    font-size: 16px;
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,#e9e2e1,#7e7472);
+    padding: 20px 35px;
+    font-size: 15px;
 }
