@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-image: linear-gradient(180deg,#ffffff,#d3d6da,#706d6d,#312e2e,#000000);
 }
 #header{
     background-image: url(../images/developer.png);
@@ -142,7 +143,7 @@ a{
     margin-bottom: 20px;
 }
 .work_description{
-    color: #888282;
+    color: #252424;
 }
 .resume_section{
     width: 80%;
@@ -165,15 +166,15 @@ a{
 .resume_title{
     font-size: 25px;
     font-weight: 700;
-    color: #4d4949;
+    color: #252323;
 }
 .resume_sub_title{
     font-size: 20px;
     font-weight: 700;
-    color: #888282;
+    color: #242222;
 }
 .resume_description{
-    color: #a09a9a;
+    color: #e9dede;
     padding-bottom: 25px;
 }
 .resume_btn{
@@ -181,7 +182,7 @@ a{
     margin-top: 50px;
 }
 .footetr{
-    background-image: linear-gradient(180deg,#ffffff,#d3d6da,#706d6d,#312e2e,#000000);
+    
     color: #f0f8ff;
 }
 .footer_conteinar{
