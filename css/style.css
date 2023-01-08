@@ -230,5 +230,6 @@ a{
     border-radius: 5px;
     background-image: linear-gradient(45deg,#e9e2e1,#7e7472);
     padding: 20px 35px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 600;
 }
